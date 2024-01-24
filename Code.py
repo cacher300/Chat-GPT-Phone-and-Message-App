@@ -8,9 +8,9 @@ import requests
 import re
 
 # set up Twilio account credentials
-account_sid = 'AC0eb057fb44y08943f92000230268f4ae'
-auth_token = 'ca527dd2c4c6bd16be8g9e15ebe128cc'
-twilio_phone_number = '+19295564501'
+account_sid = ''
+auth_token = ''
+twilio_phone_number = '+'
 client = Client(account_sid, auth_token)
 
 # set up OpenAI API credentials
